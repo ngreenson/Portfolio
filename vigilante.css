@@ -16,10 +16,12 @@
 .imgs{
     min-height: 300px;
 }
-body#exaction{
+#exaction{
     background-color:darkslateblue;
     color:white;
     font-size:24px;
+    max-width: 769px;
+    margin: auto;
 }
 body#button{
     border-radius: 10px;
@@ -318,7 +320,7 @@ body#trade {
     width: 100%;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 768px){
 .leftcircle{
     left:0;
 }
